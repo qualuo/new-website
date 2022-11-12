@@ -29,9 +29,9 @@ const Header = (prop) => {
   const searchRef = createRef();
   const bannerMessage = 'Free shipping worldwide';
   const searchSuggestions = [
-    'Oversize sweaters',
-    'Lama Pajamas',
-    'Candles Cinnamon',
+    'One on One',
+    'Website Package',
+    'Consultant Package',
   ];
 
   const handleHover = (navObject) => {
