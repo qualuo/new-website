@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Quang Luong - Software Engineer`,
-    siteUrl: `qualuo.netlify.app`,
+    siteUrl: `https://qualuo.netlify.app`,
   },
   plugins: [
     {
