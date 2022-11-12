@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = 'Servicing worldwide';
   const searchSuggestions = [
     'One on One',
     'Website Package',
@@ -118,6 +118,7 @@ const Header = (prop) => {
             <Icon symbol={`${mobileMenu === true ? 'cross' : 'burger'}`}></Icon>
           </div>
           <Brand />
+          {/*
           <div className={styles.actionContainers}>
             <button
               aria-label="Search"
@@ -160,6 +161,7 @@ const Header = (prop) => {
             </div>
           </div>
         </div>
+        */}
 
         {/* search container */}
         <div
